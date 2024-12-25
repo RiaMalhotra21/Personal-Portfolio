@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Ria Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/6a7202e11e.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo4.png" class="logo" >
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Btech CSE Student</p>
+                    <h1>Hi, I'm <span>Ria </span><br> Malhotra from <br> Open Learning.</h1>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- ----------about---------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/background.png">
+                    </div>
+                    <div class="about-col-2"> 
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a student and I'm currently pursuing my
+                            Btech computer science engineering studies from the 
+                           UPES(University of Petroleum and Energy Studies).
+                           I'm 18 years old. I aim to be a software engineer.
+                           To enhance my knowledge and for improvising my skills in 
+                           coding I also choose the Open community in my college.
+                           I like to learn new things and my hobbies are Listening to 
+                           music, playing Badminton and spending time alone.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Programming Language</span><br>Python,C and C++</li>
+                                <li><span>Leadership</span><br>NCC Cadet for two years</li>
+                                <li><span>Communication</span><br>Understanding and Friendly</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2022-current</span><br>Develop Programs related to C and C++ Languages.</li>
+                                <li><span>2021-2022</span><br>Make a Project on Bank Management System using Python and SQL interface</li>
+                                <li><span>2019-2021</span><br>NCC training for two years with Rank 4DGBN</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2022-current</span><br>Btech CSE from UPES University</li>
+                                <li><span>Higher Education </span><br>11th and 10+2 from LIS SCHOOL in PCM<br> 82.8% in 12th CBSE BOARD EXAMINATION</li>
+                                <li><span>10th Board</span><br>Schooling From LIS School <br>84% in 10th CBSE BOARD EXAMINATION</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-copyright"></i>
+                <h2>C Programs</h2>
+                <p>C language is one of the most popular computer languages today because it is a structured,
+                    high level, machine independent language. It allows software developers to develop programs without
+                    worrying about the hardware platforms where they will be implemented. C is called a high level,
+                    compiler language. The aim of any high level computer language is to provide an easy and natural
+                    way of giving a programme of instructions to a computer.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C++ Programs</h2>
+                <p>C++ is a general-purpose programming language and is widely used nowadays for 
+                    competitive programming. It has imperative, object-oriented and generic programming features.
+                     C++ runs on lots of platforms like Windows, Linux, Unix, Mac etc.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Programs</h2>
+                <p>Python is a popular general-purpose programming language. It is used in machine learning, 
+                    web development, desktop applications, and many other fields. Fortunately for beginners,
+                    Python has a simple, easy-to-use syntax. This makes Python a great language to learn for beginners.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!---------------portfolio---------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+             <img src="images/work1.jpeg">
+             <div class="layer">
+                <h3>Basics Of Computer Organisation</h3>
+                <p>1)Memory and Storage
+                    2)CPU working and Instruction cycle
+                    3)Flowchart, pseudocode and algorithms
+                    4)Operating System and system software
+                    5)Evolution of programming Language</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+             </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpeg">
+                <div class="layer">
+                    <h3>Programs</h3>
+                    <p>1) Fibonacci Series.
+                        2) Prime number.
+                        3) Palindrome number.
+                        4) Factorial.
+                        5) Armstrong number.</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+            </div>
+               <div class="work">
+                <img src="images/work3.jpeg">
+                <div class="layer">
+                    <h3>C and C++ Concepts</h3>
+                    <p>1)Pre-processor Commands
+                    2)instructions and operators
+                    3)Loops and Decision making
+                    4)classes and objects
+                    5)data structures, array, pointers and union
+                    6)i/o commands
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!------------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>Riamalhotra620@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 8810496312</p>
+                <div class="socail-icons">
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                   
+                </div>
+                <a href="images/ria.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/Riamalhotra620@gmail.com" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>made by Ria Malhotra.</p>
+    </div>
+
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+              for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";   
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+</script>
+<script>
+    const scripturl = 'https://formsubmit.co/Riamalhotra620@gmail.com'
+    const msg = document.getElementById("msg")
+    form.addeventListener('submit',e =>{
+        e.preventDefault()
+        fetch(scripturl, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+        })
+        .catch(error => console.error('Error!',error.message))
+    })
+</script>
+    </body>
+</html>
